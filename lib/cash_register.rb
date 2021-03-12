@@ -44,6 +44,5 @@ class CashRegister
     @total = @total - (@items.last[:priced] * @items.last[:quantity])
     @items.pop
   end
-  
 end
     
